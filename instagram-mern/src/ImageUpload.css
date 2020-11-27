@@ -1,0 +1,35 @@
+.uploadContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 30%;
+}
+
+.imageUpload {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid lightgray;
+}
+
+.progress {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.caption {
+  border: 1px solid;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.upload {
+  border: 1px solid lightgray !important;
+  border-radius: 5px !important;
+  width: 150px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
