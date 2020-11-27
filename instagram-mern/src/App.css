@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  background-color: #fafafa;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__header {
+  background-color: white;
+  object-fit: contain;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__headerImage {
+  width: 160px;
+  object-fit: contain;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header {
+  background-color: white;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 1px solid lightgray;
+  height: 50px;
+}
+
+.header__logo {
+  display: flex;
+  flex: 1;
+  object-fit: contain;
+  padding: 3px;
+  margin-left: 16.5%;
+}
+
+.header__image {
+  width: 120px;
+  object-fit: contain;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__signUp {
   display: flex;
   flex-direction: column;
+}
+.loginButtons {
+  padding-right: 30px;
+}
+.signButtons {
+  margin-right: 40px;
+  flex: 0;
+}
+
+.signButtonsLogout {
+  margin-right: 40px;
+}
+
+.iconContainer {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-right: 180px;
+  justify-content: space-between;
+  width: 160px;
+  /* margin-left: -300px; */
 }
 
-.App-link {
-  color: #61dafb;
+.home {
+  font-size: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__posts {
+  display: flex;
+}
+
+.app__posts__left {
+  flex: 0.6;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.app__posts__rightSec {
+  background-color: white;
+  position: fixed;
+  flex: 0.45;
+  max-width: 400px;
+  max-height: 650px;
+  border: 1px solid lightgray;
+}
+
+.viewProfile {
+  height: 27px;
+  border-radius: 5px;
+  background-color: #aedced;
+}
+
+.app__bottom {
+  text-align: center;
+  padding-bottom: 50px;
 }
